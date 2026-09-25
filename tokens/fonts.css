@@ -1,0 +1,18 @@
+/* Hanken Grotesk — the single brand typeface. Files supplied by Immersive Studio CDA. */
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:100;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Thin.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:100;font-display:swap;src:url("../assets/fonts/HankenGrotesk-ThinItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:200;font-display:swap;src:url("../assets/fonts/HankenGrotesk-ExtraLight.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:200;font-display:swap;src:url("../assets/fonts/HankenGrotesk-ExtraLightItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:300;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Light.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:300;font-display:swap;src:url("../assets/fonts/HankenGrotesk-LightItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:400;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Regular.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:500;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Medium.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:500;font-display:swap;src:url("../assets/fonts/HankenGrotesk-MediumItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:600;font-display:swap;src:url("../assets/fonts/HankenGrotesk-SemiBold.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:600;font-display:swap;src:url("../assets/fonts/HankenGrotesk-SemiBoldItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:700;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Bold.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:700;font-display:swap;src:url("../assets/fonts/HankenGrotesk-BoldItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:800;font-display:swap;src:url("../assets/fonts/HankenGrotesk-ExtraBold.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:800;font-display:swap;src:url("../assets/fonts/HankenGrotesk-ExtraBoldItalic.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:900;font-display:swap;src:url("../assets/fonts/HankenGrotesk-Black.ttf") format("truetype")}
+@font-face{font-family:"Hanken Grotesk";font-style:italic;font-weight:900;font-display:swap;src:url("../assets/fonts/HankenGrotesk-BlackItalic.ttf") format("truetype")}

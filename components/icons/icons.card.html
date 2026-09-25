@@ -1,0 +1,32 @@
+<!-- @dsCard group="Components" viewport="700x360" name="Icons" subtitle="46 glyphs, Lucide at stroke 1.5 — a flagged substitution" -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>html,body{margin:0}body{padding:28px;font-family:var(--font-sans)}</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script></head><body><div id="root"></div>
+<script type="text/babel">
+const ns = window.ImmersiveStudioCDADesignSystem_38ffa6;
+const { Icon } = ns;
+const names = (Icon && Icon.names) || ns.IconNames || [];
+const Cell = ({ n }) => (
+  <div style={{display:'grid',placeItems:'center',gap:'var(--space-2)',padding:'var(--space-3) var(--space-2)',border:'1px solid var(--border-hairline)',borderRadius:'var(--radius-sm)'}}>
+    <Icon name={n} size={22} />
+    <span style={{fontSize:9,color:'var(--text-muted)',letterSpacing:'.02em',textAlign:'center',lineHeight:1.2}}>{n}</span>
+  </div>
+);
+function Demo(){
+  return <div style={{display:'grid',gap:'var(--space-6)'}}>
+    <div style={{display:'flex',alignItems:'center',gap:'var(--space-8)'}}>
+      <span style={{display:'flex',alignItems:'center',gap:'var(--space-3)',fontSize:'var(--text-sm)'}}><Icon name="ruler" size={16}/>16 · inline</span>
+      <span style={{display:'flex',alignItems:'center',gap:'var(--space-3)',fontSize:'var(--text-base)'}}><Icon name="ruler" size={20}/>20 · default</span>
+      <span style={{display:'flex',alignItems:'center',gap:'var(--space-3)',fontSize:'var(--text-md)'}}><Icon name="ruler" size={24}/>24 · standalone</span>
+      <span style={{display:'flex',alignItems:'center',gap:'var(--space-3)',fontSize:'var(--text-sm)',color:'var(--text-muted)'}}><Icon name="ruler" size={20}/>currentColor</span>
+    </div>
+    <div style={{height:1,background:'var(--border-hairline)'}}/>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(12,1fr)',gap:'var(--space-2)'}}>
+      {names.map(n => <Cell key={n} n={n}/>)}
+    </div>
+  </div>;
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script></body></html>

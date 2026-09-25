@@ -1,0 +1,36 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Core" subtitle="Button, Eyebrow, Stat, Tag" -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>html,body{margin:0}body{padding:28px;font-family:var(--font-sans)}</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script></head><body ><div id="root"></div>
+<script type="text/babel">
+const { Button, Eyebrow, Stat, Tag } = window.ImmersiveStudioCDADesignSystem_38ffa6;
+const Row = ({children}) => <div style={{display:'flex',alignItems:'center',gap:'var(--space-4)',flexWrap:'wrap'}}>{children}</div>;
+function Demo(){
+  return <div style={{display:'grid',gap:'var(--space-6)'}}>
+    <Row>
+      <Button size="lg">Join the list</Button>
+      <Button variant="outline" arrow="down">What happens here</Button>
+      <Button variant="ghost">Learn more</Button>
+      <Button variant="link" arrow="right">Follow the build</Button>
+      <Button disabled>Disabled</Button>
+    </Row>
+    <Row>
+      <Button size="sm">Small</Button>
+      <Button size="md">Medium</Button>
+      <Button size="lg" arrow="right">Large</Button>
+      <Tag tone="outline">Coming soon</Tag>
+      <Tag tone="solid">Founding</Tag>
+      <Tag>Sold out</Tag>
+    </Row>
+    <div style={{height:1,background:'var(--border-hairline)'}}/>
+    <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:'var(--space-8)'}}>
+      <div><Eyebrow>What happens here</Eyebrow><Stat size="sm" style={{marginTop:'var(--space-4)'}} value="1:1" label="True-scale floor and elevation projection"/></div>
+      <Stat size="sm" value="Any size" label="Your plan panned across 2,800± sq ft of floor"/>
+      <Stat size="sm" value="$5K to $25K" label="Typical cost of one field change order"/>
+    </div>
+  </div>;
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script></body></html>

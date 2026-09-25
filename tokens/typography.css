@@ -1,0 +1,69 @@
+/* ── Typography ───────────────────────────────────────────────────
+   One family: Hanken Grotesk. Range is carried by weight, size and
+   tracking, never by a second typeface.                              */
+
+:root{
+  --font-sans:"Hanken Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-display:var(--font-sans);
+  --font-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  --weight-thin:100;
+  --weight-extralight:200;
+  --weight-light:300;
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+  --weight-extrabold:800;
+  --weight-black:900;
+
+  /* Size scale — 1.25 minor-third above 20px, tighter below */
+  --text-3xs:11px;
+  --text-2xs:12px;
+  --text-xs:13px;
+  --text-sm:15px;
+  --text-base:17px;
+  --text-md:19px;
+  --text-lg:22px;
+  --text-xl:28px;
+  --text-2xl:36px;
+  --text-3xl:48px;
+  --text-4xl:64px;
+  --text-5xl:84px;
+  --text-6xl:112px;
+
+  --leading-tight:1.02;
+  --leading-snug:1.12;
+  --leading-heading:1.18;
+  --leading-body:1.55;
+  --leading-loose:1.75;
+
+  --tracking-display:-0.03em;
+  --tracking-heading:-0.02em;
+  --tracking-tight:-0.01em;
+  --tracking-normal:0;
+  --tracking-wide:0.06em;
+  --tracking-eyebrow:0.18em;   /* small uppercase labels */
+  --tracking-widest:0.42em;    /* "F U L L  S C A L E" card treatment */
+
+  /* Composed roles */
+  --type-display-size:var(--text-5xl);
+  --type-display-weight:var(--weight-light);
+  --type-display-leading:var(--leading-tight);
+  --type-display-tracking:var(--tracking-display);
+
+  --type-heading-weight:var(--weight-regular);
+  --type-heading-leading:var(--leading-heading);
+  --type-heading-tracking:var(--tracking-heading);
+
+  --type-body-size:var(--text-base);
+  --type-body-weight:var(--weight-regular);
+  --type-body-leading:var(--leading-body);
+
+  --type-eyebrow-size:var(--text-2xs);
+  --type-eyebrow-weight:var(--weight-medium);
+  --type-eyebrow-tracking:var(--tracking-eyebrow);
+
+  --type-numeral-weight:var(--weight-light);
+  --type-numeral-tracking:var(--tracking-tight);
+}

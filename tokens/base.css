@@ -1,0 +1,63 @@
+/* ── Base ─────────────────────────────────────────────────────────
+   Minimal element defaults. Components carry their own styling;
+   this file only makes raw HTML look like the brand.                 */
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{-webkit-text-size-adjust:100%}
+
+body{
+  margin:0;
+  background:var(--surface-page);
+  color:var(--text-primary);
+  font-family:var(--font-sans);
+  font-size:var(--type-body-size);
+  font-weight:var(--type-body-weight);
+  line-height:var(--type-body-leading);
+  letter-spacing:var(--tracking-normal);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  font-weight:var(--type-heading-weight);
+  line-height:var(--type-heading-leading);
+  letter-spacing:var(--type-heading-tracking);
+  text-wrap:balance;
+}
+h1{font-size:var(--text-4xl);font-weight:var(--weight-light);line-height:var(--leading-tight);letter-spacing:var(--tracking-display)}
+h2{font-size:var(--text-2xl);font-weight:var(--weight-light);line-height:var(--leading-snug)}
+h3{font-size:var(--text-xl)}
+h4{font-size:var(--text-lg)}
+h5{font-size:var(--text-md)}
+h6{font-size:var(--text-2xs);font-weight:var(--weight-medium);text-transform:uppercase;letter-spacing:var(--tracking-eyebrow)}
+
+p{margin:0 0 var(--space-4);max-width:var(--measure);text-wrap:pretty}
+
+/* Headline emphasis: a bold clause inside a light headline.
+   "Step inside your project <strong>before it exists.</strong>" */
+h1 strong,h2 strong,h3 strong{font-weight:var(--weight-bold)}
+
+a{
+  color:var(--text-primary);
+  text-decoration:none;
+  border-bottom:1px solid var(--border-subtle);
+  padding-bottom:1px;
+  transition:border-color var(--duration-fast) var(--ease-standard),color var(--duration-fast) var(--ease-standard);
+}
+a:hover{color:var(--text-primary);border-bottom-color:var(--border-strong)}
+a:active{color:var(--text-secondary)}
+a:focus-visible{outline:2px solid var(--focus-ring);outline-offset:3px;border-radius:var(--radius-xs)}
+
+small{font-size:var(--text-xs);color:var(--text-secondary)}
+hr{border:0;border-top:var(--rule);margin:var(--space-12) 0}
+img,svg,video{max-width:100%;height:auto;display:block}
+::selection{background:var(--onyx);color:var(--off-white)}
+[data-theme="dark"] ::selection{background:var(--off-white);color:var(--onyx)}
+
+button,input,select,textarea{font:inherit;color:inherit}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}

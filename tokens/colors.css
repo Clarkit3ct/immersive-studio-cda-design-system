@@ -1,0 +1,98 @@
+/* ── Brand palette ────────────────────────────────────────────────
+   Source: "Immersive Studio Color Palette.pdf" (Brand Guidelines 2026, pp. 6–8)
+   Primary:   Onyx, Off White, Dove
+   Secondary: Beige, Black Olive  (print, environmental graphics, signage, merch)
+   Inspired by steel, concrete, stone and the Northwest landscape.        */
+
+:root{
+  /* Named brand colors — exact values from the palette sheet */
+  --onyx:#262626;
+  --off-white:#F7F7F3;
+  --dove:#A5A194;
+  --beige:#D4CFC5;
+  --black-olive:#868269;
+
+  /* Void — the near-black used as the digital canvas (site theme-color) */
+  --void:#0A0A0A;
+
+  /* Neutral ramp, interpolated between Void, Onyx and Off White.
+     Only 900/600/300/100/50 are brand-exact; the rest are working steps. */
+  --neutral-950:#0A0A0A;
+  --neutral-900:#141414;
+  --neutral-800:#1C1C1C;
+  --neutral-700:#262626;
+  --neutral-600:#3A3936;
+  --neutral-500:#55534C;
+  --neutral-400:#868269;
+  --neutral-300:#A5A194;
+  --neutral-200:#C2BEB2;
+  --neutral-150:#D4CFC5;
+  --neutral-100:#E6E3DB;
+  --neutral-50:#F7F7F3;
+  --neutral-0:#FFFFFF;
+
+  /* Signal colors. The brand defines none; these are muted, low-chroma
+     derivations sitting inside the stone/steel range. Use sparingly. */
+  --signal-positive:#4F6B52;
+  --signal-caution:#8A7134;
+  --signal-critical:#7A3B32;
+  --signal-info:#3F5563;
+}
+
+/* ── Light surface (default) ──────────────────────────────────────
+   Paper, print, business card, proposals, documents.                */
+:root{
+  --surface-page:var(--off-white);
+  --surface-raised:var(--neutral-0);
+  --surface-sunken:var(--neutral-100);
+  --surface-inverse:var(--void);
+  --surface-scrim:rgba(10,10,10,.60);
+
+  --text-primary:var(--onyx);
+  --text-secondary:var(--neutral-500);
+  --text-muted:var(--neutral-400);
+  --text-inverse:var(--off-white);
+  --text-on-accent:var(--off-white);
+
+  --border-hairline:rgba(38,38,38,.14);
+  --border-subtle:rgba(38,38,38,.24);
+  --border-strong:var(--onyx);
+
+  --accent:var(--onyx);
+  --accent-hover:var(--neutral-600);
+  --accent-press:var(--void);
+  --accent-quiet:rgba(38,38,38,.06);
+
+  --focus-ring:var(--black-olive);
+
+  /* The projected-plane glow: white light falling off into the dark */
+  --glow:rgba(247,247,243,.55);
+}
+
+/* ── Dark surface ─────────────────────────────────────────────────
+   The studio itself, the website, social. Apply to any element:
+   <body data-theme="dark">                                          */
+[data-theme="dark"]{
+  --surface-page:var(--void);
+  --surface-raised:var(--neutral-900);
+  --surface-sunken:#050505;
+  --surface-inverse:var(--off-white);
+  --surface-scrim:rgba(10,10,10,.78);
+
+  --text-primary:var(--off-white);
+  --text-secondary:var(--neutral-300);
+  --text-muted:var(--neutral-400);
+  --text-inverse:var(--onyx);
+  --text-on-accent:var(--onyx);
+
+  --border-hairline:rgba(247,247,243,.12);
+  --border-subtle:rgba(247,247,243,.22);
+  --border-strong:var(--off-white);
+
+  --accent:var(--off-white);
+  --accent-hover:var(--neutral-0);
+  --accent-press:var(--neutral-150);
+  --accent-quiet:rgba(247,247,243,.07);
+
+  --focus-ring:var(--dove);
+}
