@@ -1,0 +1,16 @@
+{
+ "default": "art-walk",
+ "_note": "The desk reads this list. ?flow=<id> on the desk forces one; the last choice is remembered per browser.",
+ "flows": [
+  {
+   "id": "art-walk",
+   "title": "Art walk · Friday, September 11",
+   "file": "flows/art-walk.json"
+  },
+  {
+   "id": "founding-night",
+   "title": "Founding night · Wednesday, September 9 (as it ran)",
+   "file": "flows/founding-night.json"
+  }
+ ]
+}

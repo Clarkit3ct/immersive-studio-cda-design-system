@@ -330,3 +330,19 @@ worth calling out: **DotField** (the mark's dot grid as a reusable background) a
 artifact and would otherwise be re-hand-rolled every time. **Icon** is the third: the
 brand ships no glyphs, so the kit substitutes Lucide at a re-weighted stroke rather than
 leaving every consumer to pick their own set.
+
+---
+
+## Added for the studio build (re•world, September 2026)
+
+These folders were added after the Claude Design export. They hold work made for the studio itself.
+
+| Folder | What's inside |
+| --- | --- |
+| `diagrams/` | The studio diagrams: the space by zone (`space-web/`), the five-step session flow as panels and as SVG, the 2D plan and wall base drawings, and the wireframe and labeled zones. |
+| `motion/logo-animation/` | The approved logo animation (Aug 13) as MP4 in 16:9, 1:1 and 9:16, a WebM with transparency, the source render page and its README. The ProRes 4444 masters are too big for GitHub and live in the brand kit folder on Drive. |
+| `motion/logo-animation-snap/` · `motion/loader-animation/` | Two alternate cuts of the logo animation. |
+| `motion/loader.js` | The dot mark built live on a canvas: dots build into the line, hold, dissolve. Use it on screens and web pages. |
+| `motion/jeremy-studio-reveal-loop.gif` | Studio reveal loop. |
+| `assets/logo/mark-variations/` | Dot-mark variants: confirmed mark, no-glow, dots-and-line only, cut solid black, on Onyx, lockups. |
+| `projector/` | The projector player: every scene the studio's projectors show (mark loop, words, typewriter, dot field, floating-names screensaver). See `projector/README.md`. |

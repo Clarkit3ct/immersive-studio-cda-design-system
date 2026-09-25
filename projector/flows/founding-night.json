@@ -1,0 +1,565 @@
+{
+ "id": "founding-night",
+ "title": "Founding night · Wednesday, September 9 (as it ran)",
+ "_note": "Wednesday's four acts, untouched, so the desk can go back to that flow in one click. Act II is the original 26-slide deck.json.",
+ "sets": [
+  {
+   "id": "act-1",
+   "title": "Act I · intro",
+   "hint": "welcome · fish · thank-yous, every 4½ min",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "welcome · typewriter",
+     "dur": 270,
+     "floor": {
+      "scene": "ticker",
+      "params": {
+       "word": "IMMERSIVE STUDIO"
+      }
+     },
+     "east": {
+      "scene": "typewriter"
+     },
+     "west": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "fish on the floor",
+     "dur": 120,
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     },
+     "east": {
+      "scene": "corridor"
+     },
+     "west": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "thank-yous · showcase floor",
+     "dur": 200,
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     },
+     "east": {
+      "scene": "thanks3"
+     },
+     "west": {
+      "scene": "markcap",
+      "params": {
+       "caption": "thank you"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "act-2",
+   "title": "Act II · presentation",
+   "hint": "the 26-slide deck, from slide 1",
+   "kind": "deck",
+   "deck": "deck.json"
+  },
+  {
+   "id": "act-3",
+   "title": "Act III · showcase",
+   "hint": "every clip, walls mirrored, ~1 h",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "cityscape",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/cityscape.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/cityscape.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "plans · guest house",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s04-geusthouse-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "desert",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/desert.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/desert.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · shine",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s17-shine-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/plans/a3-elkhousegeometrywplan.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "floor-hex",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/floor-hex.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/floor-hex.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ticker",
+      "params": {
+       "word": "IMMERSIVE STUDIO"
+      }
+     }
+    },
+    {
+     "t": "plans · sauna",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s15-sauna-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "forest",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/forst.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/forst.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · main house",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s18-floor-102720-ab-mainhouse-scheme1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s18-westheimer2028929.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/walls/s17-wall-24-0709-southextrender.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "glow lights",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/glow-lights.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/glow-lights.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "grid"
+     }
+    },
+    {
+     "t": "plans · barn",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/a3-plan-ab_barn_scheme-1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/a3-bathroom-axons.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-section-detail.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "ocean · blue fish floor",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/ocean.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/ocean.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-blue-15555-15755.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · sketches",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s17-shine-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/a3-sketches-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-wall-mh-sketch.jpg",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "space",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/space.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/space.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · guest house",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s04-geusthouse-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "sunset mountain",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/sunset-mountain-2.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/sunset-mountain-2.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ticker",
+      "params": {
+       "word": "IMMERSIVE STUDIO"
+      }
+     }
+    },
+    {
+     "t": "plans · shine",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s17-shine-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/plans/a3-elkhousegeometrywplan.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "sunset",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/sunset.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/sunset.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · sauna",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s15-sauna-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "wave",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/wave.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/wave.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "grid"
+     }
+    },
+    {
+     "t": "plans · main house",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s18-floor-102720-ab-mainhouse-scheme1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s18-westheimer2028929.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/walls/s17-wall-24-0709-southextrender.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "abstract",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/yt-abstract-0000-0100.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/yt-abstract-0000-0100.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "plans · barn",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/a3-plan-ab_barn_scheme-1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/a3-bathroom-axons.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-section-detail.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "house animation",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/yt-house-animation-0000-0110.mp4",
+      "fit": "contain"
+     },
+     "west": {
+      "video": "media/act3/east/yt-house-animation-0000-0110.mp4",
+      "fit": "contain"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · sketches",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s17-shine-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/a3-sketches-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-wall-mh-sketch.jpg",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "neon tunnel",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/yt-neon-tunnel-0020-0120.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/yt-neon-tunnel-0020-0120.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ticker",
+      "params": {
+       "word": "IMMERSIVE STUDIO"
+      }
+     }
+    },
+    {
+     "t": "plans · guest house",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s04-geusthouse-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s06-guesthouse-elevation.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "zoom in",
+     "dur": 120,
+     "east": {
+      "video": "media/act3/east/zoom-in.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/zoom-in.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "plans · shine",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s17-shine-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/plans/a3-elkhousegeometrywplan.png",
+      "fit": "contain"
+     }
+    }
+   ],
+   "_killed": "12-14 abstract cuts, 16-26 mograph (Roger 2:10pm). Experiential clip (2:00, walls mirrored) alternates with an architectural set (1:00). Files still in media/act3/east for the synced-media dropdown."
+  },
+  {
+   "id": "act-4",
+   "title": "Act IV · light",
+   "hint": "thank-yous · words · grid",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "thank-yous",
+     "dur": 600,
+     "floor": {
+      "scene": "grid"
+     },
+     "east": {
+      "scene": "words"
+     },
+     "west": {
+      "scene": "thanks3"
+     }
+    },
+    {
+     "t": "the loop",
+     "dur": 600,
+     "floor": {
+      "scene": "grid"
+     },
+     "east": {
+      "scene": "loop"
+     },
+     "west": {
+      "scene": "loop"
+     }
+    }
+   ]
+  }
+ ]
+}

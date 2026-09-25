@@ -1,0 +1,616 @@
+[
+ {
+  "id": "title",
+  "title": "Title",
+  "west": {
+   "type": "image",
+   "src": "media/act2/S01-west.png",
+   "fallback": {
+    "type": "mark"
+   }
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/S01-east.png",
+   "fallback": {
+    "type": "text",
+    "eyebrow": "IMMERSIVE STUDIO · COEUR D’ALENE",
+    "big": "Full Scale. Full Clarity."
+   }
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/S01-floor.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "ticker",
+    "params": {
+     "word": "IMMERSIVE STUDIO"
+    }
+   }
+  }
+ },
+ {
+  "id": "founder",
+  "title": "Meet the founder",
+  "west": {
+   "type": "text",
+   "eyebrow": "BUILT BY EXPERIENCE",
+   "big": "Jeremy Decker",
+   "size": 0.3
+  },
+  "east": {
+   "type": "text",
+   "eyebrow": "BUILT BY EXPERIENCE",
+   "big": "Meet Our Founder, Jeremy.",
+   "small": "After years in construction, it was designing a home with his wife that changed the way Jeremy understood the building process.",
+   "size": 0.2
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "FOUNDER"
+   }
+  }
+ },
+ {
+  "id": "space-0",
+  "title": "The space · one hall",
+  "west": {
+   "type": "text",
+   "eyebrow": "THE SPACE",
+   "big": "2,800 SF & 50' of wall.",
+   "tiny": "not 300 SF",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "/preview/sequence/assets/v2-00-shell.png"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-1",
+  "title": "The space · projection floor",
+  "west": {
+   "type": "text",
+   "eyebrow": "SEE IT",
+   "big": "Projection floor",
+   "small": "Your plan on the floor at 1:1. Walk the rooms before they exist.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "/preview/sequence/assets/v2-01-floor.png"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s04-geusthouse-plan.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "space-2",
+  "title": "The space · projection wall",
+  "west": {
+   "type": "text",
+   "eyebrow": "SEE IT",
+   "big": "Projection wall",
+   "small": "Elevations in 4K, at true height, behind the plan.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "/preview/sequence/assets/v2-03-east.png"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-2b",
+  "title": "Projection wall · with the elevation",
+  "west": {
+   "type": "text",
+   "eyebrow": "SEE IT",
+   "big": "Projection wall",
+   "small": "Elevations in 4K, at true height, behind the plan.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s06-guesthouse-elevation.png",
+   "fit": "cover"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s04-geusthouse-plan.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "space-2c",
+  "title": "Projection wall · real: plan on the floor, site plan + render on the walls",
+  "west": {
+   "type": "text",
+   "eyebrow": "SEE IT",
+   "big": "Projection wall",
+   "small": "Elevations in 4K, at true height, behind the plan.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s07-plan-shine-real.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "space-3",
+  "title": "Decision table · axon",
+  "west": {
+   "type": "text",
+   "eyebrow": "DECIDE IT",
+   "big": "Decision table",
+   "small": "Step off the plan and talk it through, while it is still erasable.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "/preview/sequence/assets/v2-04-lower.png"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-3b",
+  "title": "Decision table · the image",
+  "west": {
+   "type": "text",
+   "eyebrow": "DECIDE IT",
+   "big": "Decision table",
+   "small": "Step off the plan and talk it through, while it is still erasable.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s09-decision-table-render.jpeg",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-4",
+  "title": "Decision loft · axon",
+  "west": {
+   "type": "text",
+   "eyebrow": "DECIDE IT",
+   "big": "Decision loft",
+   "small": "The overview. Watch the whole plan from above the floor.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "/preview/sequence/assets/v2-05-loft.png"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-4b",
+  "title": "Decision loft · the image",
+  "west": {
+   "type": "text",
+   "eyebrow": "DECIDE IT",
+   "big": "Decision loft",
+   "small": "The overview. Watch the whole plan from above the floor.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s11-decision-loft-render.jpeg",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "space-5",
+  "title": "The space · vendor showroom",
+  "west": {
+   "type": "text",
+   "eyebrow": "CHOOSE IT",
+   "big": "Vendor showroom",
+   "small": "The materials wall. Choose the real thing on the way out.",
+   "size": 0.15,
+   "img": "media/act2/s03-is-diagram-session-flow.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s12-vendor-showroom-render.jpeg",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "THE SPACE"
+   }
+  }
+ },
+ {
+  "id": "for-architects",
+  "title": "Who it’s for · architects (Roger)",
+  "west": {
+   "type": "text",
+   "eyebrow": "WHO IT’S FOR",
+   "big": "Architects",
+   "size": 0.34
+  },
+  "east": {
+   "type": "text",
+   "eyebrow": "FOR ARCHITECTS",
+   "big": "Built for Those Who Bring Ideas to Life.",
+   "small": "Allow your clients to experience room sizes, transitions, circulation, and furnishings in real space before anything is built.",
+   "size": 0.2
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "WHO IT’S FOR"
+   }
+  }
+ },
+ {
+  "id": "proj-guesthouse",
+  "title": "Project · guest house: plan on the floor, elevation on both walls",
+  "west": {
+   "type": "image",
+   "src": "media/act2/walls/s06-guesthouse-elevation.png",
+   "fit": "cover"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s06-guesthouse-elevation.png",
+   "fit": "cover"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s04-geusthouse-plan.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "proj-sauna",
+  "title": "Project · sauna: plan on the floor, sauna wall on both walls",
+  "west": {
+   "type": "image",
+   "src": "media/act2/walls/s15-sauna-wall.png",
+   "fit": "cover"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s15-sauna-wall.png",
+   "fit": "cover"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s15-sauna-plan.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "proj-boulder",
+  "title": "Project · Boulder: site plan on the floor, Boulder render on both walls",
+  "west": {
+   "type": "image",
+   "src": "media/act2/walls/s16-wall-boulder.png",
+   "fit": "contain"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s16-wall-boulder.png",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s16-plan-bouldersite.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "proj-shine",
+  "title": "Project · Shine / Elk House: plan on the floor, interior render east, exterior render west",
+  "west": {
+   "type": "image",
+   "src": "media/act2/walls/s17-wall-24-0709-southextrender.png",
+   "fit": "contain"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s17-shine-plan.png",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "proj-mainhouse",
+  "title": "Project · main house: plan on the floor, Westheimer on both walls",
+  "west": {
+   "type": "image",
+   "src": "media/act2/walls/s18-westheimer2028929.png",
+   "fit": "contain"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s18-westheimer2028929.png",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/plans/s18-floor-102720-ab-mainhouse-scheme1.jpg",
+   "fit": "contain"
+  }
+ },
+ {
+  "id": "for-builders",
+  "title": "Who it’s for · builders + developers (Roger)",
+  "west": {
+   "type": "text",
+   "eyebrow": "WHO IT’S FOR",
+   "big": "Builders + Developers",
+   "size": 0.3
+  },
+  "east": {
+   "type": "text",
+   "eyebrow": "FOR BUILDERS",
+   "big": "Clarity Before Construction.",
+   "small": "Give your clients a clear, tangible way to understand the project before construction begins.",
+   "size": 0.2
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "WHO IT’S FOR"
+   }
+  }
+ },
+ {
+  "id": "for-realestate",
+  "title": "Who it’s for · real estate (Hattie)",
+  "west": {
+   "type": "text",
+   "eyebrow": "FOR REAL ESTATE PROFESSIONALS",
+   "big": "Compare properties from one room.",
+   "small": "Give your clients, and yourself, the opportunity to compare multiple properties from one central location.",
+   "size": 0.15,
+   "img": "/preview/sequence/assets/v2-07-all.png"
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s20-wall-render-real-estate.png",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "WHO IT’S FOR"
+   }
+  }
+ },
+ {
+  "id": "for-creatives",
+  "title": "Who it’s for · creatives",
+  "west": {
+   "type": "image",
+   "src": "media/act2/S13-west.png",
+   "fallback": {
+    "type": "text",
+    "eyebrow": "WHO IT’S FOR",
+    "big": "Creatives",
+    "size": 0.34
+   }
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/S13-east.png",
+   "fallback": {
+    "type": "text",
+    "eyebrow": "FOR EXPERIENCE CREATORS",
+    "big": "Beyond the limits of traditional media.",
+    "small": "For designers, filmmakers, artists, strategists, educators, and experience-makers working beyond the limits of traditional media.",
+    "size": 0.2
+   }
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/s21-floor.jpg",
+   "fit": "contain",
+   "fallback": {
+    "type": "grid"
+   }
+  }
+ },
+ {
+  "id": "for-events",
+  "title": "Who it’s for · experiential events (the wow)",
+  "west": {
+   "type": "image",
+   "src": "media/act2/S14-west.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "corridor"
+   }
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/S14-east.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "corridor"
+   }
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/S14-floor.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "gridripple"
+   }
+  }
+ },
+ {
+  "id": "for-events-2",
+  "title": "Events · renders on the walls",
+  "west": {
+   "type": "text",
+   "eyebrow": "PRIVATE EVENTS",
+   "big": "Gather Inside Something Unforgettable.",
+   "small": "A private immersive setting for presentations, launches, dinners, creative gatherings, and intimate events.",
+   "size": 0.15,
+   "img": "media/act2/walls/s23-event-render-2.jpeg",
+   "imgH": 0.5
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/walls/s23-event-render-1.jpeg",
+   "fit": "contain"
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ticker",
+   "params": {
+    "word": "IMMERSIVE STUDIO"
+   }
+  }
+ },
+ {
+  "id": "cta",
+  "title": "Call to action · long exposure + band east, mark west, QR corners on the floor",
+  "west": {
+   "type": "mark"
+  },
+  "east": {
+   "type": "scene",
+   "mode": "band",
+   "params": {
+    "image": "media/act2/walls/s24-long-exposure.jpeg",
+    "text": "Become a founding member"
+   }
+  },
+  "floor": {
+   "type": "scene",
+   "mode": "ctafloor",
+   "params": {
+    "word": "BECOME A FOUNDING MEMBER"
+   }
+  }
+ },
+ {
+  "id": "thanks",
+  "title": "Thank you",
+  "west": {
+   "type": "image",
+   "src": "media/act2/S02-west.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "thanks3"
+   }
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/S02-east.png",
+   "fallback": {
+    "type": "text",
+    "eyebrow": "FOUNDING NIGHT · SEPTEMBER 9, 2026",
+    "big": "Thank you for being here."
+   }
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/S02-floor.png",
+   "fallback": {
+    "type": "grid"
+   }
+  }
+ },
+ {
+  "id": "background",
+  "title": "Back to background",
+  "west": {
+   "type": "image",
+   "src": "media/act2/S17-west.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "loop"
+   }
+  },
+  "east": {
+   "type": "image",
+   "src": "media/act2/S17-east.png",
+   "fallback": {
+    "type": "scene",
+    "mode": "words"
+   }
+  },
+  "floor": {
+   "type": "image",
+   "src": "media/act2/S17-floor.png",
+   "fallback": {
+    "type": "grid"
+   }
+  }
+ }
+]

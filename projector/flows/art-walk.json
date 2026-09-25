@@ -1,0 +1,483 @@
+{
+ "id": "art-walk",
+ "title": "Art walk · Friday, September 11",
+ "_note": "A flow is one night (or one client session): an ordered list of sets. A set is a group of cues that plays itself (kind: loop) or a deck that arrows step through (kind: deck). Cue parts: {scene, params} | {video, fit} | {image, fit} | {scene:'plan', params:{url, unitsPerFt}} = a real drawing at 1:1 (PDF points per foot; a 1/4\" sheet = 18). The desk draws its buttons from this file. [S136-cda-choreography 2026-09-11]",
+ "sets": [
+  {
+   "id": "00-intro",
+   "title": "00 · Intro: branding + the space",
+   "hint": "the deck · arrows step",
+   "kind": "deck",
+   "deck": "decks/intro.json"
+  },
+  {
+   "id": "01-showcase",
+   "title": "01 · Showcase: the clips",
+   "hint": "12 clips, walls mirrored · founding CTA on the floor every third",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "cityscape",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/cityscape.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/cityscape.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "desert",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/desert.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/desert.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "ocean · CTA floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/ocean.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/ocean.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "BECOME A FOUNDING MEMBER"
+      }
+     }
+    },
+    {
+     "t": "forest · upload QR floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/forst.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/forst.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "SEE YOUR OWN WORK ON THESE WALLS",
+       "left": "assets/qr-upload.png",
+       "right": "assets/qr-upload.png",
+       "leftLabel": "UPLOAD YOUR OWN",
+       "rightLabel": "UPLOAD YOUR OWN"
+      }
+     }
+    },
+    {
+     "t": "sunset mountain",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/sunset-mountain-2.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/sunset-mountain-2.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "grid"
+     }
+    },
+    {
+     "t": "space · CTA floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/space.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/space.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "BECOME A FOUNDING MEMBER"
+      }
+     }
+    },
+    {
+     "t": "floor hex",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/floor-hex.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/floor-hex.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "glow lights",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/glow-lights.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/glow-lights.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "sunset · CTA floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/sunset.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/sunset.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "BECOME A FOUNDING MEMBER"
+      }
+     }
+    },
+    {
+     "t": "wave · upload QR floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/wave.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/wave.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "SEE YOUR OWN WORK ON THESE WALLS",
+       "left": "assets/qr-upload.png",
+       "right": "assets/qr-upload.png",
+       "leftLabel": "UPLOAD YOUR OWN",
+       "rightLabel": "UPLOAD YOUR OWN"
+      }
+     }
+    },
+    {
+     "t": "neon tunnel",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/yt-neon-tunnel-0020-0120.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/yt-neon-tunnel-0020-0120.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "grid"
+     }
+    },
+    {
+     "t": "zoom in · CTA floor",
+     "dur": 90,
+     "east": {
+      "video": "media/act3/east/zoom-in.mp4",
+      "fit": "cover"
+     },
+     "west": {
+      "video": "media/act3/east/zoom-in.mp4",
+      "fit": "cover"
+     },
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "BECOME A FOUNDING MEMBER"
+      }
+     }
+    }
+   ],
+   "_note": "Dropped for brightness (measured avg luminance /255): yt-abstract 173, yt-house-animation 171 (also the L/R start offset). Kept 12, dark ones spread out."
+  },
+  {
+   "id": "02-plans",
+   "title": "02 · Plans: projects at 1:1",
+   "hint": "7 projects · plan on the floor, walls with it · click one and 'hold here' to stay",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "Fish Creek guest house · 1:1 · elevations at true height",
+     "dur": 75,
+     "floor": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/fishcreek-main-level.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "east": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/fishcreek-elev-south.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "west": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/fishcreek-elev-north.pdf",
+       "unitsPerFt": 18
+      }
+     }
+    },
+    {
+     "t": "Shine / Elk House · 1:1 · elevations at true height",
+     "dur": 75,
+     "floor": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/shine-main-level.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "east": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/shine-elev-east.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "west": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/shine-elev-west.pdf",
+       "unitsPerFt": 18
+      }
+     }
+    },
+    {
+     "t": "Shine / Elk House · 1:1 · renders on the walls",
+     "dur": 75,
+     "floor": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/shine-main-level.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "east": {
+      "image": "media/act2/walls/s07-wall-23-1002-shinemaker-elkhouse-interiorrender.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/walls/s17-wall-24-0709-southextrender.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "sauna · plan + sauna wall",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s15-sauna-plan.png",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/s15-sauna-wall.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "main house · plan + Westheimer",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/s18-floor-102720-ab-mainhouse-scheme1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/s18-westheimer2028929.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "media/act2/walls/s17-wall-24-0709-southextrender.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "barn · plan + axons + section",
+     "dur": 60,
+     "floor": {
+      "image": "media/act2/plans/a3-plan-ab_barn_scheme-1.jpg",
+      "fit": "contain"
+     },
+     "east": {
+      "image": "media/act2/walls/a3-bathroom-axons.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-section-detail.png",
+      "fit": "cover"
+     }
+    },
+    {
+     "t": "sketches · Shine at 1:1 under them",
+     "dur": 60,
+     "floor": {
+      "scene": "plan",
+      "params": {
+       "url": "media/plans/shine-main-level.pdf",
+       "unitsPerFt": 18
+      }
+     },
+     "east": {
+      "image": "media/act2/walls/a3-sketches-wall.png",
+      "fit": "cover"
+     },
+     "west": {
+      "image": "media/act2/walls/a3-wall-mh-sketch.jpg",
+      "fit": "contain"
+     }
+    }
+   ]
+  },
+  {
+   "id": "03-creative",
+   "title": "03 · Creative: light + words",
+   "hint": "welcome · corridor · words · upload-yours QR · the loop — the resting state",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "welcome · typewriter",
+     "dur": 270,
+     "floor": {
+      "scene": "ticker",
+      "params": {
+       "word": "IMMERSIVE STUDIO"
+      }
+     },
+     "east": {
+      "scene": "typewriter"
+     },
+     "west": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "fish on the floor · corridor",
+     "dur": 120,
+     "floor": {
+      "video": "media/act1/floor-fish-0000-0200.mp4",
+      "fit": "cover"
+     },
+     "east": {
+      "scene": "corridor"
+     },
+     "west": {
+      "scene": "mark"
+     }
+    },
+    {
+     "t": "upload yours · QR on the walls and the floor",
+     "dur": 150,
+     "floor": {
+      "scene": "ctafloor",
+      "params": {
+       "word": "SEE YOUR OWN WORK ON THESE WALLS",
+       "left": "assets/qr-upload.png",
+       "right": "assets/qr-upload.png",
+       "leftLabel": "UPLOAD YOUR OWN",
+       "rightLabel": "UPLOAD YOUR OWN"
+      }
+     },
+     "east": {
+      "image": "assets/qr-upload-wall.png",
+      "fit": "contain"
+     },
+     "west": {
+      "image": "assets/qr-upload-wall.png",
+      "fit": "contain"
+     }
+    },
+    {
+     "t": "words · showcase floor",
+     "dur": 200,
+     "floor": {
+      "video": "media/act1/floor-showcase-0000-0200.mp4",
+      "fit": "cover"
+     },
+     "east": {
+      "scene": "words"
+     },
+     "west": {
+      "scene": "markcap",
+      "params": {
+       "caption": "welcome"
+      }
+     }
+    },
+    {
+     "t": "floor intro · corridor · typewriter",
+     "dur": 180,
+     "floor": {
+      "scene": "floorintro"
+     },
+     "east": {
+      "scene": "corridor"
+     },
+     "west": {
+      "scene": "typewriter"
+     }
+    },
+    {
+     "t": "the loop",
+     "dur": 300,
+     "floor": {
+      "scene": "grid"
+     },
+     "east": {
+      "scene": "loop"
+     },
+     "west": {
+      "scene": "loop"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "taped": "2026-09-14",
+ "note": "The studio's calibration. Export a fresh one from the desk (Displays \u2192 export calibration) and replace this file. frame = where the projector lands, in window pixels; ft = feet across and up. A browser that has its own saved calibration ignores this file.",
+ "west": {
+  "frame": null,
+  "ft": {
+   "w": 49.19,
+   "h": 13.08
+  }
+ },
+ "floor": {
+  "frame": null,
+  "ft": {
+   "w": 71.33,
+   "h": 41.69
+  }
+ },
+ "east": {
+  "frame": null,
+  "ft": {
+   "w": 49.19,
+   "h": 12.52
+  }
+ }
+}
