@@ -346,3 +346,9 @@ These folders were added after the Claude Design export. They hold work made for
 | `motion/jeremy-studio-reveal-loop.gif` | Studio reveal loop. |
 | `assets/logo/mark-variations/` | Dot-mark variants: confirmed mark, no-glow, dots-and-line only, cut solid black, on Onyx, lockups. |
 | `projector/` | The projector player: every scene the studio's projectors show (mark loop, words, typewriter, dot field, floating-names screensaver). See `projector/README.md`. |
+
+---
+
+## Making scenes for the room
+
+See [ROOM-SCENES.md](ROOM-SCENES.md): the three screens' pixel sizes, where media files go (the library folder in Drive), and the small scene file that puts a loop on all three screens from the desk, no developer in the loop.
