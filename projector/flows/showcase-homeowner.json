@@ -1,0 +1,1106 @@
+{
+ "id": "showcase-homeowner",
+ "title": "Showcase · homeowner",
+ "_note": "S159 (2026-10-05, round three) · On the desk since 2026-10-05 (Roger's go), still running on PLACEHOLDER projects. The corridor → three Uptic photos → WILL IT FIT? on the floor: a kitchen with a 10 ft island and a 48 in aisle, a 12 × 12 bedroom with a king bed, a 22 × 24 garage with a crew cab pickup (19 ft 4 in) and a car, each drawn at true size while its question shows on the walls (the same four numbers as the social drawings) → the scan, 'Clarity before construction.' with 'The cheapest time to change your plans is right now.', then a finished house on the walls → the use cases → the mark. PLACEHOLDERS: Fish Creek is the plan; the house on the walls is an invented render.",
+ "sets": [
+  {
+   "id": "loop",
+   "title": "Showcase · homeowner · plays and loops by itself",
+   "hint": "about two minutes a loop · ends on the mark",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "Showcase · homeowner",
+     "dur": 3600,
+     "west": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "dur": {
+        "room": 10,
+        "scale": 22
+       },
+       "photos": [
+        "assets/showcase/room-07.jpg",
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-06.jpg"
+       ],
+       "finale": {
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "media/plans/fishcreek-elev-south.pdf",
+         "unitsPerFt": 17.96
+        },
+        "east": {
+         "url": "media/plans/fishcreek-elev-north.pdf",
+         "unitsPerFt": 17.96
+        },
+        "hold": 15,
+        "words": {
+         "line": "Clarity before construction.",
+         "small": "The cheapest time to change your plans is right now."
+        },
+        "after": [
+         {
+          "img": "assets/showcase/home-r1.jpg",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       },
+       "close": {
+        "hold": 5.5,
+        "line": "Full Scale. Full Clarity.",
+        "photos": [
+         {
+          "src": "assets/showcase/room-05.jpg",
+          "label": "HOMEOWNERS"
+         },
+         {
+          "src": "assets/showcase/room-11.jpg",
+          "label": "BUILDERS"
+         },
+         {
+          "src": "assets/showcase/room-02.jpg",
+          "label": "ARCHITECTS"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "REAL ESTATE"
+         },
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "EXPERIENCE CREATORS"
+         },
+         {
+          "src": "assets/showcase/event-01.jpg",
+          "label": "PRIVATE EVENTS"
+         }
+        ]
+       },
+       "scaleFloor": [
+        [
+         "island",
+         8,
+         13.08,
+         null,
+         2.2
+        ],
+        [
+         "bed",
+         27,
+         9.67,
+         null,
+         6.8
+        ],
+        [
+         "truck",
+         43.5,
+         13.17,
+         null,
+         11.4
+        ],
+        [
+         "car-v",
+         54.5,
+         12.75,
+         "",
+         12.2
+        ]
+       ],
+       "scaleRooms": [
+        {
+         "t0": 1.4,
+         "walls": [
+          [
+           -0.4,
+           3.6,
+           16.4,
+           4
+          ],
+          [
+           -0.4,
+           4,
+           0,
+           16.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            0,
+            4
+           ],
+           [
+            16,
+            4
+           ],
+           [
+            16,
+            6
+           ],
+           [
+            0,
+            6
+           ],
+           [
+            0,
+            4
+           ]
+          ],
+          [
+           [
+            6.75,
+            4.35
+           ],
+           [
+            9.25,
+            4.35
+           ],
+           [
+            9.25,
+            5.65
+           ],
+           [
+            6.75,
+            5.65
+           ],
+           [
+            6.75,
+            4.35
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           14.4,
+           6,
+           14.4,
+           10,
+           "48 IN",
+           "TWO COOKS"
+          ]
+         ],
+         "labels": []
+        },
+        {
+         "t0": 6.0,
+         "walls": [
+          [
+           20.6,
+           5.6,
+           33.4,
+           6
+          ],
+          [
+           20.6,
+           6,
+           21,
+           18.4
+          ],
+          [
+           33,
+           6,
+           33.4,
+           18.4
+          ],
+          [
+           21,
+           18,
+           29.4,
+           18.4
+          ],
+          [
+           32.2,
+           18,
+           33,
+           18.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            32.2,
+            18
+           ],
+           [
+            32.2,
+            15.2
+           ]
+          ],
+          [
+           [
+            32.2,
+            15.2
+           ],
+           [
+            31.89,
+            15.22
+           ],
+           [
+            31.58,
+            15.27
+           ],
+           [
+            31.28,
+            15.36
+           ],
+           [
+            30.99,
+            15.48
+           ],
+           [
+            30.71,
+            15.63
+           ],
+           [
+            30.45,
+            15.81
+           ],
+           [
+            30.22,
+            16.02
+           ],
+           [
+            30.01,
+            16.25
+           ],
+           [
+            29.83,
+            16.51
+           ],
+           [
+            29.68,
+            16.79
+           ],
+           [
+            29.56,
+            17.08
+           ],
+           [
+            29.47,
+            17.38
+           ],
+           [
+            29.42,
+            17.69
+           ],
+           [
+            29.4,
+            18.0
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           30.17,
+           9.6,
+           33,
+           9.6,
+           "34 IN"
+          ]
+         ],
+         "labels": [
+          [
+           "12 × 12 FT BEDROOM",
+           27,
+           19.7
+          ]
+         ]
+        },
+        {
+         "t0": 10.6,
+         "walls": [
+          [
+           37.6,
+           1.6,
+           60.4,
+           2
+          ],
+          [
+           37.6,
+           2,
+           38,
+           26.4
+          ],
+          [
+           60,
+           2,
+           60.4,
+           26.4
+          ],
+          [
+           38,
+           26,
+           40,
+           26.4
+          ],
+          [
+           58,
+           26,
+           60,
+           26.4
+          ]
+         ],
+         "lines": [],
+         "dims": [
+          [
+           61.7,
+           2,
+           61.7,
+           26,
+           "24 FT",
+           "DEEP"
+          ]
+         ],
+         "labels": []
+        }
+       ],
+       "scaleWords": [
+        "Is there enough room around the island?",
+        "A king bed is 76 by 80 inches. See what's left of the room.",
+        "Will the truck fit in the garage?"
+       ],
+       "scaleWordHold": 4.6
+      }
+     },
+     "floor": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "dur": {
+        "room": 10,
+        "scale": 22
+       },
+       "photos": [
+        "assets/showcase/room-07.jpg",
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-06.jpg"
+       ],
+       "finale": {
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "media/plans/fishcreek-elev-south.pdf",
+         "unitsPerFt": 17.96
+        },
+        "east": {
+         "url": "media/plans/fishcreek-elev-north.pdf",
+         "unitsPerFt": 17.96
+        },
+        "hold": 15,
+        "words": {
+         "line": "Clarity before construction.",
+         "small": "The cheapest time to change your plans is right now."
+        },
+        "after": [
+         {
+          "img": "assets/showcase/home-r1.jpg",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       },
+       "close": {
+        "hold": 5.5,
+        "line": "Full Scale. Full Clarity.",
+        "photos": [
+         {
+          "src": "assets/showcase/room-05.jpg",
+          "label": "HOMEOWNERS"
+         },
+         {
+          "src": "assets/showcase/room-11.jpg",
+          "label": "BUILDERS"
+         },
+         {
+          "src": "assets/showcase/room-02.jpg",
+          "label": "ARCHITECTS"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "REAL ESTATE"
+         },
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "EXPERIENCE CREATORS"
+         },
+         {
+          "src": "assets/showcase/event-01.jpg",
+          "label": "PRIVATE EVENTS"
+         }
+        ]
+       },
+       "scaleFloor": [
+        [
+         "island",
+         8,
+         13.08,
+         null,
+         2.2
+        ],
+        [
+         "bed",
+         27,
+         9.67,
+         null,
+         6.8
+        ],
+        [
+         "truck",
+         43.5,
+         13.17,
+         null,
+         11.4
+        ],
+        [
+         "car-v",
+         54.5,
+         12.75,
+         "",
+         12.2
+        ]
+       ],
+       "scaleRooms": [
+        {
+         "t0": 1.4,
+         "walls": [
+          [
+           -0.4,
+           3.6,
+           16.4,
+           4
+          ],
+          [
+           -0.4,
+           4,
+           0,
+           16.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            0,
+            4
+           ],
+           [
+            16,
+            4
+           ],
+           [
+            16,
+            6
+           ],
+           [
+            0,
+            6
+           ],
+           [
+            0,
+            4
+           ]
+          ],
+          [
+           [
+            6.75,
+            4.35
+           ],
+           [
+            9.25,
+            4.35
+           ],
+           [
+            9.25,
+            5.65
+           ],
+           [
+            6.75,
+            5.65
+           ],
+           [
+            6.75,
+            4.35
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           14.4,
+           6,
+           14.4,
+           10,
+           "48 IN",
+           "TWO COOKS"
+          ]
+         ],
+         "labels": []
+        },
+        {
+         "t0": 6.0,
+         "walls": [
+          [
+           20.6,
+           5.6,
+           33.4,
+           6
+          ],
+          [
+           20.6,
+           6,
+           21,
+           18.4
+          ],
+          [
+           33,
+           6,
+           33.4,
+           18.4
+          ],
+          [
+           21,
+           18,
+           29.4,
+           18.4
+          ],
+          [
+           32.2,
+           18,
+           33,
+           18.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            32.2,
+            18
+           ],
+           [
+            32.2,
+            15.2
+           ]
+          ],
+          [
+           [
+            32.2,
+            15.2
+           ],
+           [
+            31.89,
+            15.22
+           ],
+           [
+            31.58,
+            15.27
+           ],
+           [
+            31.28,
+            15.36
+           ],
+           [
+            30.99,
+            15.48
+           ],
+           [
+            30.71,
+            15.63
+           ],
+           [
+            30.45,
+            15.81
+           ],
+           [
+            30.22,
+            16.02
+           ],
+           [
+            30.01,
+            16.25
+           ],
+           [
+            29.83,
+            16.51
+           ],
+           [
+            29.68,
+            16.79
+           ],
+           [
+            29.56,
+            17.08
+           ],
+           [
+            29.47,
+            17.38
+           ],
+           [
+            29.42,
+            17.69
+           ],
+           [
+            29.4,
+            18.0
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           30.17,
+           9.6,
+           33,
+           9.6,
+           "34 IN"
+          ]
+         ],
+         "labels": [
+          [
+           "12 × 12 FT BEDROOM",
+           27,
+           19.7
+          ]
+         ]
+        },
+        {
+         "t0": 10.6,
+         "walls": [
+          [
+           37.6,
+           1.6,
+           60.4,
+           2
+          ],
+          [
+           37.6,
+           2,
+           38,
+           26.4
+          ],
+          [
+           60,
+           2,
+           60.4,
+           26.4
+          ],
+          [
+           38,
+           26,
+           40,
+           26.4
+          ],
+          [
+           58,
+           26,
+           60,
+           26.4
+          ]
+         ],
+         "lines": [],
+         "dims": [
+          [
+           61.7,
+           2,
+           61.7,
+           26,
+           "24 FT",
+           "DEEP"
+          ]
+         ],
+         "labels": []
+        }
+       ],
+       "scaleWords": [
+        "Is there enough room around the island?",
+        "A king bed is 76 by 80 inches. See what's left of the room.",
+        "Will the truck fit in the garage?"
+       ],
+       "scaleWordHold": 4.6
+      }
+     },
+     "east": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "dur": {
+        "room": 10,
+        "scale": 22
+       },
+       "photos": [
+        "assets/showcase/room-07.jpg",
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-06.jpg"
+       ],
+       "finale": {
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "media/plans/fishcreek-elev-south.pdf",
+         "unitsPerFt": 17.96
+        },
+        "east": {
+         "url": "media/plans/fishcreek-elev-north.pdf",
+         "unitsPerFt": 17.96
+        },
+        "hold": 15,
+        "words": {
+         "line": "Clarity before construction.",
+         "small": "The cheapest time to change your plans is right now."
+        },
+        "after": [
+         {
+          "img": "assets/showcase/home-r1.jpg",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       },
+       "close": {
+        "hold": 5.5,
+        "line": "Full Scale. Full Clarity.",
+        "photos": [
+         {
+          "src": "assets/showcase/room-05.jpg",
+          "label": "HOMEOWNERS"
+         },
+         {
+          "src": "assets/showcase/room-11.jpg",
+          "label": "BUILDERS"
+         },
+         {
+          "src": "assets/showcase/room-02.jpg",
+          "label": "ARCHITECTS"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "REAL ESTATE"
+         },
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "EXPERIENCE CREATORS"
+         },
+         {
+          "src": "assets/showcase/event-01.jpg",
+          "label": "PRIVATE EVENTS"
+         }
+        ]
+       },
+       "scaleFloor": [
+        [
+         "island",
+         8,
+         13.08,
+         null,
+         2.2
+        ],
+        [
+         "bed",
+         27,
+         9.67,
+         null,
+         6.8
+        ],
+        [
+         "truck",
+         43.5,
+         13.17,
+         null,
+         11.4
+        ],
+        [
+         "car-v",
+         54.5,
+         12.75,
+         "",
+         12.2
+        ]
+       ],
+       "scaleRooms": [
+        {
+         "t0": 1.4,
+         "walls": [
+          [
+           -0.4,
+           3.6,
+           16.4,
+           4
+          ],
+          [
+           -0.4,
+           4,
+           0,
+           16.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            0,
+            4
+           ],
+           [
+            16,
+            4
+           ],
+           [
+            16,
+            6
+           ],
+           [
+            0,
+            6
+           ],
+           [
+            0,
+            4
+           ]
+          ],
+          [
+           [
+            6.75,
+            4.35
+           ],
+           [
+            9.25,
+            4.35
+           ],
+           [
+            9.25,
+            5.65
+           ],
+           [
+            6.75,
+            5.65
+           ],
+           [
+            6.75,
+            4.35
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           14.4,
+           6,
+           14.4,
+           10,
+           "48 IN",
+           "TWO COOKS"
+          ]
+         ],
+         "labels": []
+        },
+        {
+         "t0": 6.0,
+         "walls": [
+          [
+           20.6,
+           5.6,
+           33.4,
+           6
+          ],
+          [
+           20.6,
+           6,
+           21,
+           18.4
+          ],
+          [
+           33,
+           6,
+           33.4,
+           18.4
+          ],
+          [
+           21,
+           18,
+           29.4,
+           18.4
+          ],
+          [
+           32.2,
+           18,
+           33,
+           18.4
+          ]
+         ],
+         "lines": [
+          [
+           [
+            32.2,
+            18
+           ],
+           [
+            32.2,
+            15.2
+           ]
+          ],
+          [
+           [
+            32.2,
+            15.2
+           ],
+           [
+            31.89,
+            15.22
+           ],
+           [
+            31.58,
+            15.27
+           ],
+           [
+            31.28,
+            15.36
+           ],
+           [
+            30.99,
+            15.48
+           ],
+           [
+            30.71,
+            15.63
+           ],
+           [
+            30.45,
+            15.81
+           ],
+           [
+            30.22,
+            16.02
+           ],
+           [
+            30.01,
+            16.25
+           ],
+           [
+            29.83,
+            16.51
+           ],
+           [
+            29.68,
+            16.79
+           ],
+           [
+            29.56,
+            17.08
+           ],
+           [
+            29.47,
+            17.38
+           ],
+           [
+            29.42,
+            17.69
+           ],
+           [
+            29.4,
+            18.0
+           ]
+          ]
+         ],
+         "dims": [
+          [
+           30.17,
+           9.6,
+           33,
+           9.6,
+           "34 IN"
+          ]
+         ],
+         "labels": [
+          [
+           "12 × 12 FT BEDROOM",
+           27,
+           19.7
+          ]
+         ]
+        },
+        {
+         "t0": 10.6,
+         "walls": [
+          [
+           37.6,
+           1.6,
+           60.4,
+           2
+          ],
+          [
+           37.6,
+           2,
+           38,
+           26.4
+          ],
+          [
+           60,
+           2,
+           60.4,
+           26.4
+          ],
+          [
+           38,
+           26,
+           40,
+           26.4
+          ],
+          [
+           58,
+           26,
+           60,
+           26.4
+          ]
+         ],
+         "lines": [],
+         "dims": [
+          [
+           61.7,
+           2,
+           61.7,
+           26,
+           "24 FT",
+           "DEEP"
+          ]
+         ],
+         "labels": []
+        }
+       ],
+       "scaleWords": [
+        "Is there enough room around the island?",
+        "A king bed is 76 by 80 inches. See what's left of the room.",
+        "Will the truck fit in the garage?"
+       ],
+       "scaleWordHold": 4.6
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

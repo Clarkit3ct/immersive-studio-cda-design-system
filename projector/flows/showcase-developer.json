@@ -1,0 +1,581 @@
+{
+ "id": "showcase-developer",
+ "title": "Showcase · developer",
+ "_note": "S159 (2026-10-02, round two after Roger's notes) · On the desk since 2026-10-05 (Roger's go), still running on PLACEHOLDER projects. The mark (no corridor) → the team in one room (three Uptic photos) → three pre-sale renders → a tenant layout at true size, nine different pieces → the scan, 'Buyers can stand in the unit before you break ground.' (from the hook library), then a kitchen elevation that turns into its own render line for line, then unit renders full screen → the mark. PLACEHOLDERS: the plan is Fish Creek, the kitchen and the unit renders are invented and do not belong to that plan. Jeremy to supply a higher-end unit plan with matching elevations and renders, and a commercial set.",
+ "sets": [
+  {
+   "id": "loop",
+   "title": "Showcase · developer · plays and loops by itself",
+   "hint": "about two minutes a loop · placeholders until Jeremy confirms a project",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "Showcase · developer",
+     "dur": 3600,
+     "west": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "events",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "arrive": "mark",
+       "dur": {
+        "arrive": 12,
+        "room": 10,
+        "events": 11,
+        "scale": 17
+       },
+       "photos": [
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-02.jpg",
+        "assets/showcase/room-01.jpg"
+       ],
+       "lineRoom": "Bring the entire team inside the same vision.",
+       "events": {
+        "floor": "grid",
+        "line": "Every floor plan in the project, in one session.",
+        "photos": [
+         {
+          "src": "assets/showcase/presale-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r3.jpg",
+          "cap": "CONCEPT RENDER"
+         }
+        ]
+       },
+       "scaleStep": 0.5,
+       "scaleFloor": [
+        [
+         "reception",
+         5,
+         5
+        ],
+        [
+         "conference",
+         5,
+         21
+        ],
+        [
+         "desks",
+         18,
+         6
+        ],
+        [
+         "desks",
+         18,
+         22,
+         ""
+        ],
+        [
+         "booth",
+         30,
+         6.5
+        ],
+        [
+         "retail",
+         30,
+         22
+        ],
+        [
+         "treadmill",
+         41,
+         6
+        ],
+        [
+         "treadmill",
+         41,
+         11,
+         ""
+        ],
+        [
+         "treatment",
+         41,
+         22.5
+        ],
+        [
+         "cookline",
+         53,
+         14.5
+        ]
+       ],
+       "scaleWall": [
+        [
+         "fig-drawing",
+         3.5,
+         0
+        ],
+        [
+         "fig-pockets",
+         8,
+         0
+        ],
+        [
+         "fig-tablet",
+         12.5,
+         0
+        ],
+        [
+         "door",
+         17.5,
+         0
+        ],
+        [
+         "fig-couple",
+         23,
+         0
+        ],
+        [
+         "fig-pointing",
+         28.5,
+         0
+        ],
+        [
+         "fig-hip",
+         33,
+         0
+        ],
+        [
+         "fig-walking",
+         37.5,
+         0
+        ]
+       ],
+       "scaleDims": [
+        [
+         15.3,
+         6.666666666666667,
+         "6′–8″",
+         3.2
+        ],
+        [
+         9.6,
+         5.833333333333333,
+         "5′–10″",
+         3.8
+        ]
+       ],
+       "finale": {
+        "hold": 21.2,
+        "words": {
+         "line": "Buyers can stand in the unit before you break ground."
+        },
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "east": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "after": [
+         {
+          "img": "assets/showcase/kitchen-render.jpg",
+          "fit": "sheet",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         },
+         {
+          "img": {
+           "west": "assets/showcase/unit-r1.jpg",
+           "east": "assets/showcase/unit-r2.jpg"
+          },
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       }
+      }
+     },
+     "floor": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "events",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "arrive": "mark",
+       "dur": {
+        "arrive": 12,
+        "room": 10,
+        "events": 11,
+        "scale": 17
+       },
+       "photos": [
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-02.jpg",
+        "assets/showcase/room-01.jpg"
+       ],
+       "lineRoom": "Bring the entire team inside the same vision.",
+       "events": {
+        "floor": "grid",
+        "line": "Every floor plan in the project, in one session.",
+        "photos": [
+         {
+          "src": "assets/showcase/presale-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r3.jpg",
+          "cap": "CONCEPT RENDER"
+         }
+        ]
+       },
+       "scaleStep": 0.5,
+       "scaleFloor": [
+        [
+         "reception",
+         5,
+         5
+        ],
+        [
+         "conference",
+         5,
+         21
+        ],
+        [
+         "desks",
+         18,
+         6
+        ],
+        [
+         "desks",
+         18,
+         22,
+         ""
+        ],
+        [
+         "booth",
+         30,
+         6.5
+        ],
+        [
+         "retail",
+         30,
+         22
+        ],
+        [
+         "treadmill",
+         41,
+         6
+        ],
+        [
+         "treadmill",
+         41,
+         11,
+         ""
+        ],
+        [
+         "treatment",
+         41,
+         22.5
+        ],
+        [
+         "cookline",
+         53,
+         14.5
+        ]
+       ],
+       "scaleWall": [
+        [
+         "fig-drawing",
+         3.5,
+         0
+        ],
+        [
+         "fig-pockets",
+         8,
+         0
+        ],
+        [
+         "fig-tablet",
+         12.5,
+         0
+        ],
+        [
+         "door",
+         17.5,
+         0
+        ],
+        [
+         "fig-couple",
+         23,
+         0
+        ],
+        [
+         "fig-pointing",
+         28.5,
+         0
+        ],
+        [
+         "fig-hip",
+         33,
+         0
+        ],
+        [
+         "fig-walking",
+         37.5,
+         0
+        ]
+       ],
+       "scaleDims": [
+        [
+         15.3,
+         6.666666666666667,
+         "6′–8″",
+         3.2
+        ],
+        [
+         9.6,
+         5.833333333333333,
+         "5′–10″",
+         3.8
+        ]
+       ],
+       "finale": {
+        "hold": 21.2,
+        "words": {
+         "line": "Buyers can stand in the unit before you break ground."
+        },
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "east": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "after": [
+         {
+          "img": "assets/showcase/kitchen-render.jpg",
+          "fit": "sheet",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         },
+         {
+          "img": {
+           "west": "assets/showcase/unit-r1.jpg",
+           "east": "assets/showcase/unit-r2.jpg"
+          },
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       }
+      }
+     },
+     "east": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "arrive",
+        "room",
+        "events",
+        "scale",
+        "finale",
+        "close"
+       ],
+       "arrive": "mark",
+       "dur": {
+        "arrive": 12,
+        "room": 10,
+        "events": 11,
+        "scale": 17
+       },
+       "photos": [
+        "assets/showcase/room-03.jpg",
+        "assets/showcase/room-02.jpg",
+        "assets/showcase/room-01.jpg"
+       ],
+       "lineRoom": "Bring the entire team inside the same vision.",
+       "events": {
+        "floor": "grid",
+        "line": "Every floor plan in the project, in one session.",
+        "photos": [
+         {
+          "src": "assets/showcase/presale-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r2.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         {
+          "src": "assets/showcase/presale-r3.jpg",
+          "cap": "CONCEPT RENDER"
+         }
+        ]
+       },
+       "scaleStep": 0.5,
+       "scaleFloor": [
+        [
+         "reception",
+         5,
+         5
+        ],
+        [
+         "conference",
+         5,
+         21
+        ],
+        [
+         "desks",
+         18,
+         6
+        ],
+        [
+         "desks",
+         18,
+         22,
+         ""
+        ],
+        [
+         "booth",
+         30,
+         6.5
+        ],
+        [
+         "retail",
+         30,
+         22
+        ],
+        [
+         "treadmill",
+         41,
+         6
+        ],
+        [
+         "treadmill",
+         41,
+         11,
+         ""
+        ],
+        [
+         "treatment",
+         41,
+         22.5
+        ],
+        [
+         "cookline",
+         53,
+         14.5
+        ]
+       ],
+       "scaleWall": [
+        [
+         "fig-drawing",
+         3.5,
+         0
+        ],
+        [
+         "fig-pockets",
+         8,
+         0
+        ],
+        [
+         "fig-tablet",
+         12.5,
+         0
+        ],
+        [
+         "door",
+         17.5,
+         0
+        ],
+        [
+         "fig-couple",
+         23,
+         0
+        ],
+        [
+         "fig-pointing",
+         28.5,
+         0
+        ],
+        [
+         "fig-hip",
+         33,
+         0
+        ],
+        [
+         "fig-walking",
+         37.5,
+         0
+        ]
+       ],
+       "scaleDims": [
+        [
+         15.3,
+         6.666666666666667,
+         "6′–8″",
+         3.2
+        ],
+        [
+         9.6,
+         5.833333333333333,
+         "5′–10″",
+         3.8
+        ]
+       ],
+       "finale": {
+        "hold": 21.2,
+        "words": {
+         "line": "Buyers can stand in the unit before you break ground."
+        },
+        "floor": {
+         "url": "media/plans/fishcreek-main-level.pdf",
+         "unitsPerFt": 18
+        },
+        "west": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "east": {
+         "url": "assets/showcase/kitchen-elev.png",
+         "unitsPerFt": 108.94
+        },
+        "after": [
+         {
+          "img": "assets/showcase/kitchen-render.jpg",
+          "fit": "sheet",
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         },
+         {
+          "img": {
+           "west": "assets/showcase/unit-r1.jpg",
+           "east": "assets/showcase/unit-r2.jpg"
+          },
+          "cap": "CONCEPT RENDER · PLACEHOLDER"
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

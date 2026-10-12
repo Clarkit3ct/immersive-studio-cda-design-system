@@ -3,6 +3,26 @@
  "_note": "The desk reads this list. ?flow=<id> on the desk forces one; the last choice is remembered per browser.",
  "flows": [
   {
+   "id": "showcase",
+   "title": "Showcase · the space in 90 seconds",
+   "file": "flows/showcase.json"
+  },
+  {
+   "id": "showcase-homeowner",
+   "title": "Showcase · homeowner",
+   "file": "flows/showcase-homeowner.json"
+  },
+  {
+   "id": "showcase-events",
+   "title": "Showcase · events",
+   "file": "flows/showcase-events.json"
+  },
+  {
+   "id": "showcase-developer",
+   "title": "Showcase · developer",
+   "file": "flows/showcase-developer.json"
+  },
+  {
    "id": "art-walk",
    "title": "Art walk · Friday, September 11",
    "file": "flows/art-walk.json"

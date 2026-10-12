@@ -1,0 +1,29 @@
+{
+ "id": "showcase",
+ "title": "Showcase · the space in 90 seconds",
+ "_note": "S152 v3 (2026-09-29). One scene, 'showcase', runs the whole tour on all three screens from one clock and loops by itself: the corridor → gather → the room → the scan. Press ▶ on the set; it keeps looping until you pick something else. The scan uses Fish Creek as a stand-in until Jeremy picks a project he can show publicly (swap it in params.finale). Scale is left out until it has real figure and furniture assets (add it with params.chapters).",
+ "sets": [
+  {
+   "id": "loop",
+   "title": "Showcase · plays and loops by itself",
+   "hint": "about 90 seconds a loop · the walls and floor stay in step",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "Showcase",
+     "dur": 3600,
+     "west": {
+      "scene": "showcase"
+     },
+     "floor": {
+      "scene": "showcase"
+     },
+     "east": {
+      "scene": "showcase"
+     }
+    }
+   ]
+  }
+ ]
+}

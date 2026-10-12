@@ -1,0 +1,686 @@
+{
+ "id": "showcase-events",
+ "title": "Showcase · events",
+ "_note": "S159 (2026-10-05, round three after Roger's notes) · On the desk since 2026-10-05 (Roger's go). Words first on black ('Any background you want.'), then four quick themes, each the same world on the walls and underfoot (ocean, space, forest, lanterns) → six event images (four real founders-night photos; renders captioned) → an event at true size on the floor while a party draws on the walls and the kinds of event flash by, then 'Full Scale. Full Clarity.' → three kinds of event as labelled images → the mark over the lanterns. The dinner and holiday images were remade from renders built on real photos of the room.",
+ "sets": [
+  {
+   "id": "loop",
+   "title": "Showcase · events · plays and loops by itself",
+   "hint": "about a minute and a half a loop · opens on the words, ends on the mark",
+   "kind": "loop",
+   "loop": true,
+   "cues": [
+    {
+     "t": "Showcase · events",
+     "dur": 3600,
+     "west": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "gather",
+        "events",
+        "scale",
+        "close"
+       ],
+       "dur": {
+        "events": 17.5,
+        "scale": 18
+       },
+       "gather": {
+        "lead": 3.4,
+        "themeHold": 5.5,
+        "floor": "media/act1/floor-showcase-0000-0200.mp4",
+        "themes": [
+         {
+          "wall": "media/act3/east/ocean.mp4",
+          "word": "Any background you want."
+         },
+         {
+          "wall": "media/act3/east/space.mp4",
+          "word": "Any theme you want."
+         },
+         {
+          "wall": "media/act3/east/forst.mp4",
+          "word": ""
+         },
+         {
+          "wall": "media/act3/east/glow-lights.mp4",
+          "word": "Gather inside something unforgettable."
+         }
+        ]
+       },
+       "events": {
+        "hold": 8,
+        "line": "Gather inside something unforgettable.",
+        "photos": [
+         "assets/showcase/event-01.jpg",
+         {
+          "src": "assets/showcase/event-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-02.jpg",
+         "assets/showcase/event-03.jpg",
+         {
+          "src": "assets/showcase/event-r4.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-04.jpg"
+        ]
+       },
+       "scaleStep": 0.45,
+       "scaleFloor": [
+        [
+         "bar",
+         1.5,
+         15
+        ],
+        [
+         "round8",
+         15,
+         5.5
+        ],
+        [
+         "round8",
+         27.5,
+         5.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         5.5,
+         ""
+        ],
+        [
+         "cocktail",
+         11,
+         15
+        ],
+        [
+         "cocktail",
+         21,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         31,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         41,
+         15,
+         ""
+        ],
+        [
+         "round8",
+         15,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         27.5,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         24.5,
+         ""
+        ],
+        [
+         "lounge",
+         53.5,
+         15
+        ]
+       ],
+       "scaleWall": [
+        [
+         "tree",
+         -2.4,
+         0
+        ],
+        [
+         "party-three",
+         2.6,
+         0
+        ],
+        [
+         "party-glass-a",
+         7.4,
+         0
+        ],
+        [
+         "highboy",
+         9.1,
+         0
+        ],
+        [
+         "party-glass-b",
+         10.9,
+         0
+        ],
+        [
+         "party-laugh",
+         14.8,
+         0
+        ],
+        [
+         "party-toast",
+         18.4,
+         0
+        ],
+        [
+         "party-dance",
+         23,
+         0
+        ],
+        [
+         "party-server",
+         27.6,
+         0
+        ],
+        [
+         "party-photo",
+         30.6,
+         0
+        ],
+        [
+         "backdrop",
+         34.6,
+         0
+        ],
+        [
+         "dj",
+         40.3,
+         0
+        ]
+       ],
+       "scaleDims": [],
+       "close": {
+        "hold": 6,
+        "photos": [
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "BRAND ACTIVATIONS"
+         },
+         {
+          "src": "assets/showcase/event-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "DINNERS"
+         },
+         {
+          "src": "assets/showcase/event-r3.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "HOLIDAY PARTIES"
+         }
+        ],
+        "bg": {
+         "wall": "media/act3/east/glow-lights.mp4",
+         "floor": "media/act1/floor-showcase-0000-0200.mp4"
+        }
+       },
+       "scaleWords": [
+        "Holiday parties.",
+        "Brand activations.",
+        "Company parties.",
+        "Launches.",
+        "Dinners."
+       ],
+       "scaleWordHold": 2.4
+      }
+     },
+     "floor": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "gather",
+        "events",
+        "scale",
+        "close"
+       ],
+       "dur": {
+        "events": 17.5,
+        "scale": 18
+       },
+       "gather": {
+        "lead": 3.4,
+        "themeHold": 5.5,
+        "floor": "media/act1/floor-showcase-0000-0200.mp4",
+        "themes": [
+         {
+          "wall": "media/act3/east/ocean.mp4",
+          "word": "Any background you want."
+         },
+         {
+          "wall": "media/act3/east/space.mp4",
+          "word": "Any theme you want."
+         },
+         {
+          "wall": "media/act3/east/forst.mp4",
+          "word": ""
+         },
+         {
+          "wall": "media/act3/east/glow-lights.mp4",
+          "word": "Gather inside something unforgettable."
+         }
+        ]
+       },
+       "events": {
+        "hold": 8,
+        "line": "Gather inside something unforgettable.",
+        "photos": [
+         "assets/showcase/event-01.jpg",
+         {
+          "src": "assets/showcase/event-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-02.jpg",
+         "assets/showcase/event-03.jpg",
+         {
+          "src": "assets/showcase/event-r4.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-04.jpg"
+        ]
+       },
+       "scaleStep": 0.45,
+       "scaleFloor": [
+        [
+         "bar",
+         1.5,
+         15
+        ],
+        [
+         "round8",
+         15,
+         5.5
+        ],
+        [
+         "round8",
+         27.5,
+         5.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         5.5,
+         ""
+        ],
+        [
+         "cocktail",
+         11,
+         15
+        ],
+        [
+         "cocktail",
+         21,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         31,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         41,
+         15,
+         ""
+        ],
+        [
+         "round8",
+         15,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         27.5,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         24.5,
+         ""
+        ],
+        [
+         "lounge",
+         53.5,
+         15
+        ]
+       ],
+       "scaleWall": [
+        [
+         "tree",
+         -2.4,
+         0
+        ],
+        [
+         "party-three",
+         2.6,
+         0
+        ],
+        [
+         "party-glass-a",
+         7.4,
+         0
+        ],
+        [
+         "highboy",
+         9.1,
+         0
+        ],
+        [
+         "party-glass-b",
+         10.9,
+         0
+        ],
+        [
+         "party-laugh",
+         14.8,
+         0
+        ],
+        [
+         "party-toast",
+         18.4,
+         0
+        ],
+        [
+         "party-dance",
+         23,
+         0
+        ],
+        [
+         "party-server",
+         27.6,
+         0
+        ],
+        [
+         "party-photo",
+         30.6,
+         0
+        ],
+        [
+         "backdrop",
+         34.6,
+         0
+        ],
+        [
+         "dj",
+         40.3,
+         0
+        ]
+       ],
+       "scaleDims": [],
+       "close": {
+        "hold": 6,
+        "photos": [
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "BRAND ACTIVATIONS"
+         },
+         {
+          "src": "assets/showcase/event-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "DINNERS"
+         },
+         {
+          "src": "assets/showcase/event-r3.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "HOLIDAY PARTIES"
+         }
+        ],
+        "bg": {
+         "wall": "media/act3/east/glow-lights.mp4",
+         "floor": "media/act1/floor-showcase-0000-0200.mp4"
+        }
+       },
+       "scaleWords": [
+        "Holiday parties.",
+        "Brand activations.",
+        "Company parties.",
+        "Launches.",
+        "Dinners."
+       ],
+       "scaleWordHold": 2.4
+      }
+     },
+     "east": {
+      "scene": "showcase",
+      "params": {
+       "chapters": [
+        "gather",
+        "events",
+        "scale",
+        "close"
+       ],
+       "dur": {
+        "events": 17.5,
+        "scale": 18
+       },
+       "gather": {
+        "lead": 3.4,
+        "themeHold": 5.5,
+        "floor": "media/act1/floor-showcase-0000-0200.mp4",
+        "themes": [
+         {
+          "wall": "media/act3/east/ocean.mp4",
+          "word": "Any background you want."
+         },
+         {
+          "wall": "media/act3/east/space.mp4",
+          "word": "Any theme you want."
+         },
+         {
+          "wall": "media/act3/east/forst.mp4",
+          "word": ""
+         },
+         {
+          "wall": "media/act3/east/glow-lights.mp4",
+          "word": "Gather inside something unforgettable."
+         }
+        ]
+       },
+       "events": {
+        "hold": 8,
+        "line": "Gather inside something unforgettable.",
+        "photos": [
+         "assets/showcase/event-01.jpg",
+         {
+          "src": "assets/showcase/event-r1.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-02.jpg",
+         "assets/showcase/event-03.jpg",
+         {
+          "src": "assets/showcase/event-r4.jpg",
+          "cap": "CONCEPT RENDER"
+         },
+         "assets/showcase/event-04.jpg"
+        ]
+       },
+       "scaleStep": 0.45,
+       "scaleFloor": [
+        [
+         "bar",
+         1.5,
+         15
+        ],
+        [
+         "round8",
+         15,
+         5.5
+        ],
+        [
+         "round8",
+         27.5,
+         5.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         5.5,
+         ""
+        ],
+        [
+         "cocktail",
+         11,
+         15
+        ],
+        [
+         "cocktail",
+         21,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         31,
+         15,
+         ""
+        ],
+        [
+         "cocktail",
+         41,
+         15,
+         ""
+        ],
+        [
+         "round8",
+         15,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         27.5,
+         24.5,
+         ""
+        ],
+        [
+         "round8",
+         40,
+         24.5,
+         ""
+        ],
+        [
+         "lounge",
+         53.5,
+         15
+        ]
+       ],
+       "scaleWall": [
+        [
+         "tree",
+         -2.4,
+         0
+        ],
+        [
+         "party-three",
+         2.6,
+         0
+        ],
+        [
+         "party-glass-a",
+         7.4,
+         0
+        ],
+        [
+         "highboy",
+         9.1,
+         0
+        ],
+        [
+         "party-glass-b",
+         10.9,
+         0
+        ],
+        [
+         "party-laugh",
+         14.8,
+         0
+        ],
+        [
+         "party-toast",
+         18.4,
+         0
+        ],
+        [
+         "party-dance",
+         23,
+         0
+        ],
+        [
+         "party-server",
+         27.6,
+         0
+        ],
+        [
+         "party-photo",
+         30.6,
+         0
+        ],
+        [
+         "backdrop",
+         34.6,
+         0
+        ],
+        [
+         "dj",
+         40.3,
+         0
+        ]
+       ],
+       "scaleDims": [],
+       "close": {
+        "hold": 6,
+        "photos": [
+         {
+          "src": "assets/showcase/event-r5.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "BRAND ACTIVATIONS"
+         },
+         {
+          "src": "assets/showcase/event-r2.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "DINNERS"
+         },
+         {
+          "src": "assets/showcase/event-r3.jpg",
+          "cap": "CONCEPT RENDER",
+          "label": "HOLIDAY PARTIES"
+         }
+        ],
+        "bg": {
+         "wall": "media/act3/east/glow-lights.mp4",
+         "floor": "media/act1/floor-showcase-0000-0200.mp4"
+        }
+       },
+       "scaleWords": [
+        "Holiday parties.",
+        "Brand activations.",
+        "Company parties.",
+        "Launches.",
+        "Dinners."
+       ],
+       "scaleWordHold": 2.4
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
