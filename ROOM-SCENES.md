@@ -85,13 +85,15 @@ What the fields mean:
     - `black` — nothing.
     - Add `"invert": true` to any of these for white ground and black ink (the White room look).
 
+- A soundtrack, on the set: `"sound": "track.mp3"` (a file in this folder; MP3 or M4A). It plays from the floor's window across the set's cues; the three wall windows share the studio PC's speakers. A cue can carry its own `"sound"` to change it there, or `"sound": false` for silence. A set without one stops it; ⏸ pause pauses it; black and power off end it. For a quieter track: `"sound": { "url": "track.mp3", "vol": 0.5 }`.
+
 Media paths are relative to the scene file's folder (`west.mp4`, or `clips/west.mp4` for a sub-folder).
 
 ## Trying it on the desk
 
 1. Save the folder into the library in Drive. Wait for Drive to sync on the studio PC.
 2. On the desk: Show tab → File loader → **refresh**. The status line counts your scene files.
-3. Your scene appears in two places: **Immersive → yours** (one button: puts the first cue on every screen that is not held) and **Shows → flow list** with a 📁 in front (the whole set, with ▶ play, hold here, prev, next).
+3. Your scene appears in two places: **Immersive → yours** (one button: puts the first cue on every screen that is not held) and **Shows → flow list** with a 📁 in front (the whole set, with ▶ play, ⏸ pause, prev, next). ⏸ pause stops all three screens where they are; press it again to carry on.
 4. Change the file, press refresh, play again. No restart, nothing to install.
 
 If a media file is named wrong, the status line under the File loader says what was not found, and that screen goes black for that cue.
@@ -99,7 +101,6 @@ If a media file is named wrong, the status line under the File loader says what 
 ## What a scene cannot do yet
 
 - Reach the Mac's remote tiles as pictures (the Mac shows the file's name instead; the walls are right).
-- Carry sound. The room has no soundtrack yet.
 - Change a screen that is on **hold**. That is on purpose.
 
 ## Sending a fix to the software itself
